@@ -33,7 +33,7 @@ Il secondo file riceverà la richiesta ed eseguirà queste operazioni:
     
     <h1>Inserisci un paragrafo e una parola da censurare</h1>
 
-    <form action="badWords.php" method="GET">
+    <form action="badWords.php" method="POST">
         <textarea name="paragrafo" id="" cols="30" rows="10"></textarea>
         <input type="text" name="censura">
         <button type="submit">Avvia il controllo</button>

@@ -3,10 +3,10 @@
 
 <?php 
     // variabile che prende tramite GET e il name il testo inserito
-    $testo_inserito = $_GET['paragrafo'];
+    $testo_inserito = $_POST['paragrafo'];
 
     // variabile che prende tramite GET e il name la parola da censurare
-    $parola_da_censurare = $_GET['censura'];
+    $parola_da_censurare = $_POST['censura'];
 
     // variabile che prende la parola da censurare e il testo inserito e gli applica la censura
     $testo_censurato = str_replace($parola_da_censurare, 'xxx' ,$testo_inserito);
